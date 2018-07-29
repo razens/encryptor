@@ -18,8 +18,8 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='encryptor',
-    version='1.1.0',
+    name='encryptor64',
+    version='1.2.0',
     description='Encryption to base 64',
     long_description=long_description,
     include_package_data=True,
